@@ -1,0 +1,16 @@
+// Then import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.imagen-principal {
+  display: grid;
+  place-items: center;
+}
+
+.col{
+  max-width: 450px;
+  margin-bottom: 20px;
+}
+
+#bio{
+  margin-top: 20px;
+}

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/styles.css" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="/Assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/Assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/Assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/Assets/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="/Assets/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <title>Natos y Waor</title>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-md bg-dark sticky-top border-bottom"
+      data-bs-theme="dark"
+    >
+      <div class="container">
+        <img
+          src="/Assets/WebP/logo-natos-y-waor-blanco-final.webp"
+          class="d-block"
+          alt="Logo de Natos y Waor"
+        />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvas"
+          aria-controls="#offcanvas"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="#offcanvas"
+          aria-labelledby="#offcanvasLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="#offcanvasLabel">Aperture</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav flex-grow-1 justify-content-between">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <svg class="bi" width="24" height="24">
+                    <use xlink:href="#aperture"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Video</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <svg class="bi" width="24" height="24">
+                    <use xlink:href="#cart"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="imagen-principal">
+        <picture>
+          <img
+            sizes="(max-width: 1720px) 100vw, 1720px"
+            srcset="
+              /Assets/WebP/natos-y-waor-background-inicio_ljfq6u_c_scale,w_190.webp   190w,
+              /Assets/WebP/natos-y-waor-background-inicio_ljfq6u_c_scale,w_1098.webp 1098w,
+              /Assets/WebP/natos-y-waor-background-inicio_ljfq6u_c_scale,w_1602.webp 1602w,
+              /Assets/WebP/natos-y-waor-background-inicio_ljfq6u_c_scale,w_1720.webp 1720w
+            "
+            src="/Assets/WebP/natos-y-waor-background-inicio_ljfq6u_c_scale,w_1720.webp"
+            alt=""
+          />
+        </picture>
+      </div>
+      <div class="container" id="bio">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="/Assets/WebP/home-natos-y-waor-542x339.webp"
+                class="img-fluid rounded-start"
+                alt="Imagen concierto Natos Y Waor"
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <p class="card-text">
+                  Natos y Waor son un dúo de rap madrileño afincado en Aluche.
+                  Cuentan con 8 trabajos a sus espaldas: "POR LA JETA" (2011),
+                  "CATARSIS" (2012), "HIJOS DE LA RUINA" (2012, ft Recycled J),
+                  "CAJA NEGRA" (2014), "MARTES 13" (ganador del Premio MIN a
+                  mejor álbum de Hip Hop de 2015), "HIJOS DE LA RUINA Vol.2"
+                  (2016, ft Recycled J), "CICATRICES" (2018) , "HIJOS DE LA
+                  RUINA Vol.3" (2021, ft Recycled J, que es el disco de hip hop
+                  más reproducido el día de su lanzamiento en España en la
+                  historia de las plataformas digitales) y "LUNA LLENA" (2022).
+                  Todos ellos han sido editados y distribuidos de forma
+                  independiente. Actualmente, se encuentran inmersos en la que
+                  probablemente sea la gira más exitosa que un grupo de rap
+                  español haya hecho nunca y que terminará el 26 de octubre de
+                  2024 en un Wizink Center que colgará el cartel de sold out por
+                  tercera vez en este tour.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center" id="albums">
+        <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1">
+          <div class="col">
+            <img
+              src="/Assets/WebP/natos-y-waor-mal-de-amores-front-min.webp"
+              class="img-fluid"
+              alt="Álbum luna llena"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="/Assets/WebP/portada-natos-y-waor-luna-llena.webp"
+              class="img-fluid"
+              alt="Álbum luna llena"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="/Assets/WebP/cd-hijos-de-la-ruina-vol-3-1.webp"
+              class="img-fluid"
+              alt="Álbum hijos de la ruina volumen 3"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="/Assets/WebP/BARRAS-BRAVAS-portada-600x600-1.webp"
+              class="img-fluid"
+              alt="Álbum barras bravas"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="/Assets/WebP/natos-y-waor-cicatrices-bio.webp"
+              class="img-fluid"
+              alt="Álbum cicatrices"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="/Assets/WebP/natos-waor-recicledj-hijos-de-la-ruina-vol-2-portada.webp"
+              class="img-fluid"
+              alt="Álbum hijos de la ruina volumen 2"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="/Assets/WebP/portada-martes-13.webp"
+              class="img-fluid"
+              alt="Álbum martes 13"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="/Assets/WebP/portada-caja-negra.webp"
+              class="img-fluid"
+              alt="Álbum caja negra"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="/Assets/WebP/Natos-Waor-Cool-Hijos-de-la-ruina-portada.webp"
+              class="img-fluid"
+              alt="Álbum hijos de la ruina"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="/Assets/WebP/Natos-y-Waor-Catarsis-Delantera.webp"
+              class="img-fluid"
+              alt="Álbum catarsis"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="/Assets/WebP/natos-y-waor-por-la-jeta.webp"
+              class="img-fluid"
+              alt="Álbum por la jeta"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/cuQWw2pVdXI?si=cRkt1-PvXmFRAD2G"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </main>
+
+    <footer class="container py-5">
+      <div class="row">
+        <div class="col-12 col-md">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            class="d-block mb-2"
+            role="img"
+            viewBox="0 0 24 24"
+          >
+            <title>Product</title>
+            <circle cx="12" cy="12" r="10"></circle>
+            <path
+              d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"
+            ></path>
+          </svg>
+          <small class="d-block mb-3 text-body-secondary">© 2017–2023</small>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Features</h5>
+          <ul class="list-unstyled text-small">
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Cool stuff</a
+              >
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Random feature</a
+              >
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Team feature</a
+              >
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Stuff for developers</a
+              >
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Another one</a
+              >
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Last time</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Resource name</a
+              >
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Resource</a
+              >
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Another resource</a
+              >
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Final resource</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Business</a
+              >
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Education</a
+              >
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Government</a
+              >
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#">Gaming</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>About</h5>
+          <ul class="list-unstyled text-small">
+            <li>
+              <a class="link-secondary text-decoration-none" href="#">Team</a>
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Locations</a
+              >
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Privacy</a
+              >
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#">Terms</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="/docs/5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
