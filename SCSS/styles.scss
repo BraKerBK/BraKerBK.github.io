@@ -6,11 +6,35 @@
   place-items: center;
 }
 
-.col{
+.col_album{
   max-width: 450px;
   margin-bottom: 20px;
 }
 
 #bio{
   margin-top: 20px;
+}
+
+#video_layout{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#container_spotify{
+  margin-top: 50px;
+  margin-bottom: 340px;
+}
+
+#iframe{
+  width: 100%;
+  height: 100%;
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+#image_spotify{
+  display: grid;
+  place-items: center;
 }

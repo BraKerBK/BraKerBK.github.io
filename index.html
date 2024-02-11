@@ -39,11 +39,13 @@
       data-bs-theme="dark"
     >
       <div class="container">
-        <img
-          src="/Assets/WebP/logo-natos-y-waor-blanco-final.webp"
-          class="d-block"
-          alt="Logo de Natos y Waor"
-        />
+        <a href="index.html">
+          <img
+            src="/Assets/WebP/logo-natos-y-waor-blanco-final.webp"
+            class="d-block"
+            alt="Logo de Natos y Waor"
+          />
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -78,8 +80,12 @@
                   </svg>
                 </a>
               </li>
-              <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Video</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="video.html">Video</a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
                   <svg class="bi" width="24" height="24">
@@ -113,11 +119,18 @@
         <div class="card mb-3">
           <div class="row g-0">
             <div class="col-md-4">
-              <img
-                src="/Assets/WebP/home-natos-y-waor-542x339.webp"
-                class="img-fluid rounded-start"
-                alt="Imagen concierto Natos Y Waor"
-              />
+              <picture>
+                <img
+                  sizes="(max-width: 300px) 100vw, 542px"
+                  srcset="
+                    /Assets/WebP/home-natos-y-waor-542x339_ttpzjc_c_scale,w_190.webp 190w,
+                    /Assets/WebP/home-natos-y-waor-542x339_ttpzjc_c_scale,w_542.webp 542w
+                  "
+                  src="/Assets/WebP/home-natos-y-waor-542x339_ttpzjc_c_scale,w_542.webp"
+                  alt=""
+                  class="img-fluid"
+                />
+              </picture>
             </div>
             <div class="col-md-8">
               <div class="card-body">
@@ -146,90 +159,176 @@
 
       <div class="container text-center" id="albums">
         <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1">
-          <div class="col">
-            <img
-              src="/Assets/WebP/natos-y-waor-mal-de-amores-front-min.webp"
-              class="img-fluid"
-              alt="Álbum luna llena"
-            />
+          <div class="col_album">
+            <picture>
+              <img
+                sizes="(max-width: 900px) 100vw, 900px"
+                srcset="
+                  /Assets/WebP/natos-y-waor-mal-de-amores-front-min_gnlke9_c_scale,w_190.webp 190w,
+                  /Assets/WebP/natos-y-waor-mal-de-amores-front-min_gnlke9_c_scale,w_613.webp 613w,
+                  /Assets/WebP/natos-y-waor-mal-de-amores-front-min_gnlke9_c_scale,w_900.webp 900w
+                "
+                src="/Assets/WebP/natos-y-waor-mal-de-amores-front-min_gnlke9_c_scale,w_900.webp"
+                alt=""
+                class="img-fluid"
+              />
+            </picture>
           </div>
-          <div class="col">
-            <img
-              src="/Assets/WebP/portada-natos-y-waor-luna-llena.webp"
-              class="img-fluid"
-              alt="Álbum luna llena"
-            />
+          <div class="col_album">
+            <a href="canciones.html">
+              <picture>
+                <img
+                  sizes="(max-width: 900px) 100vw, 900px"
+                  srcset="
+                    /Assets/WebP/portada-natos-y-waor-luna-llena_phtnjh_c_scale,w_190.webp 190w,
+                    /Assets/WebP/portada-natos-y-waor-luna-llena_phtnjh_c_scale,w_772.webp 772w,
+                    /Assets/WebP/portada-natos-y-waor-luna-llena_phtnjh_c_scale,w_900.webp 900w
+                  "
+                  src="/Assets/WebP/portada-natos-y-waor-luna-llena_phtnjh_c_scale,w_900.webp"
+                  alt=""
+                  class="img-fluid"
+                />
+              </picture>
+            </a>
           </div>
-          <div class="col">
-            <img
-              src="/Assets/WebP/cd-hijos-de-la-ruina-vol-3-1.webp"
-              class="img-fluid"
-              alt="Álbum hijos de la ruina volumen 3"
-            />
+          <div class="col_album">
+            <picture>
+              <img
+                sizes="(max-width: 600px) 100vw, 600px"
+                srcset="
+                  /Assets/WebP/cd-hijos-de-la-ruina-vol-3-1_gibs1f_c_scale,w_190.webp 190w,
+                  /Assets/WebP/cd-hijos-de-la-ruina-vol-3-1_gibs1f_c_scale,w_444.webp 444w,
+                  /Assets/WebP/cd-hijos-de-la-ruina-vol-3-1_gibs1f_c_scale,w_600.webp 600w
+                "
+                src="/Assets/WebP/cd-hijos-de-la-ruina-vol-3-1_gibs1f_c_scale,w_600.webp"
+                alt=""
+                class="img-fluid"
+              />
+            </picture>
           </div>
-          <div class="col">
-            <img
-              src="/Assets/WebP/BARRAS-BRAVAS-portada-600x600-1.webp"
-              class="img-fluid"
-              alt="Álbum barras bravas"
-            />
+          <div class="col_album">
+            <picture>
+              <img
+                sizes="(max-width: 600px) 100vw, 600px"
+                srcset="
+                  /Assets/WebP/BARRAS-BRAVAS-portada-600x600-1_h0hzfv_c_scale,w_190.webp 190w,
+                  /Assets/WebP/BARRAS-BRAVAS-portada-600x600-1_h0hzfv_c_scale,w_503.webp 503w,
+                  /Assets/WebP/BARRAS-BRAVAS-portada-600x600-1_h0hzfv_c_scale,w_600.webp 600w
+                "
+                src="/Assets/WebP/BARRAS-BRAVAS-portada-600x600-1_h0hzfv_c_scale,w_600.webp"
+                alt=""
+                class="img-fluid"
+              />
+            </picture>
           </div>
-          <div class="col">
-            <img
-              src="/Assets/WebP/natos-y-waor-cicatrices-bio.webp"
-              class="img-fluid"
-              alt="Álbum cicatrices"
-            />
+          <div class="col_album">
+            <picture>
+              <img
+                sizes="(max-width: 542px) 100vw, 542px"
+                srcset="
+                  /Assets/WebP/natos-y-waor-cicatrices-bio_fit9q4_c_scale,w_190.webp 190w,
+                  /Assets/WebP/natos-y-waor-cicatrices-bio_fit9q4_c_scale,w_451.webp 451w,
+                  /Assets/WebP/natos-y-waor-cicatrices-bio_fit9q4_c_scale,w_542.webp 542w
+                "
+                src="/Assets/WebP/natos-y-waor-cicatrices-bio_fit9q4_c_scale,w_542.webp"
+                alt="Álbum cicatrices"
+                class="img-fluid"
+              />
+            </picture>
           </div>
-          <div class="col">
-            <img
-              src="/Assets/WebP/natos-waor-recicledj-hijos-de-la-ruina-vol-2-portada.webp"
-              class="img-fluid"
-              alt="Álbum hijos de la ruina volumen 2"
-            />
+          <div class="col_album">
+            <picture>
+              <img
+                sizes="(max-width: 542px) 100vw, 542px"
+                srcset="
+                  /Assets/WebP/natos-waor-recicledj-hijos-de-la-ruina-vol-2-portada_uwufq2_c_scale,w_190.webp 190w,
+                  /Assets/WebP/natos-waor-recicledj-hijos-de-la-ruina-vol-2-portada_uwufq2_c_scale,w_467.webp 467w,
+                  /Assets/WebP/natos-waor-recicledj-hijos-de-la-ruina-vol-2-portada_uwufq2_c_scale,w_542.webp 542w
+                "
+                src="/Assets/WebP/natos-waor-recicledj-hijos-de-la-ruina-vol-2-portada_uwufq2_c_scale,w_542.webp"
+                alt=""
+                class="img-fluid"
+              />
+            </picture>
           </div>
-          <div class="col">
-            <img
-              src="/Assets/WebP/portada-martes-13.webp"
-              class="img-fluid"
-              alt="Álbum martes 13"
-            />
+          <div class="col_album">
+            <picture>
+              <img
+                sizes="(max-width: 1181px) 100vw, 1181px"
+                srcset="
+                  /Assets/WebP/portada-martes-13_d7sltv_c_scale,w_190.webp   190w,
+                  /Assets/WebP/portada-martes-13_d7sltv_c_scale,w_843.webp   843w,
+                  /Assets/WebP/portada-martes-13_d7sltv_c_scale,w_1181.webp 1181w
+                "
+                src="/Assets/WebP/portada-martes-13_d7sltv_c_scale,w_1181.webp"
+                alt=""
+                class="img-fluid"
+              />
+            </picture>
           </div>
-          <div class="col">
-            <img
-              src="/Assets/WebP/portada-caja-negra.webp"
-              class="img-fluid"
-              alt="Álbum caja negra"
-            />
+          <div class="col_album">
+            <picture>
+              <img
+                sizes="(max-width: 500px) 100vw, 500px"
+                srcset="
+                  /Assets/WebP/portada-caja-negra_lzpqnl_c_scale,w_190.webp 190w,
+                  /Assets/WebP/portada-caja-negra_lzpqnl_c_scale,w_500.webp 500w
+                "
+                src="/Assets/WebP/portada-caja-negra_lzpqnl_c_scale,w_500.webp"
+                alt=""
+                class="img-fluid"
+              />
+            </picture>
           </div>
-          <div class="col">
-            <img
-              src="/Assets/WebP/Natos-Waor-Cool-Hijos-de-la-ruina-portada.webp"
-              class="img-fluid"
-              alt="Álbum hijos de la ruina"
-            />
+          <div class="col_album">
+            <picture>
+              <img
+                sizes="(max-width: 2039px) 100vw, 2039px"
+                srcset="
+                  /Assets/WebP/Natos-Waor-Cool-Hijos-de-la-ruina-portada_svoxak_c_scale,w_190.webp   190w,
+                  /Assets/WebP/Natos-Waor-Cool-Hijos-de-la-ruina-portada_svoxak_c_scale,w_1789.webp 1789w,
+                  /Assets/WebP/Natos-Waor-Cool-Hijos-de-la-ruina-portada_svoxak_c_scale,w_2039.webp 2039w
+                "
+                src="/Assets/WebP/Natos-Waor-Cool-Hijos-de-la-ruina-portada_svoxak_c_scale,w_2039.webp"
+                alt=""
+                class="img-fluid"
+              />
+            </picture>
           </div>
-          <div class="col">
-            <img
-              src="/Assets/WebP/Natos-y-Waor-Catarsis-Delantera.webp"
-              class="img-fluid"
-              alt="Álbum catarsis"
-            />
+          <div class="col_album">
+            <picture>
+              <img
+                sizes="(max-width: 1000px) 100vw, 1000px"
+                srcset="
+                  /Assets/WebP/Natos-y-Waor-Catarsis-Delantera_ppjufv_c_scale,w_190.webp   190w,
+                  /Assets/WebP/Natos-y-Waor-Catarsis-Delantera_ppjufv_c_scale,w_833.webp   833w,
+                  /Assets/WebP/Natos-y-Waor-Catarsis-Delantera_ppjufv_c_scale,w_1000.webp 1000w
+                "
+                src="/Assets/WebP/Natos-y-Waor-Catarsis-Delantera_ppjufv_c_scale,w_1000.webp"
+                alt=""
+                class="img-fluid"
+              />
+            </picture>
           </div>
-          <div class="col">
-            <img
-              src="/Assets/WebP/natos-y-waor-por-la-jeta.webp"
-              class="img-fluid"
-              alt="Álbum por la jeta"
-            />
+          <div class="col_album">
+            <picture>
+              <img
+                sizes="(max-width: 500px) 100vw, 500px"
+                srcset="
+                  /Assets/WebP/natos-y-waor-por-la-jeta_w9fupn_c_scale,w_190.webp 190w,
+                  /Assets/WebP/natos-y-waor-por-la-jeta_w9fupn_c_scale,w_500.webp 500w
+                "
+                src="/Assets/WebP/natos-y-waor-por-la-jeta_w9fupn_c_scale,w_500.webp"
+                alt=""
+                class="img-fluid"
+              />
+            </picture>
           </div>
         </div>
       </div>
 
-      <div class="container">
+      <div class="container" id="iframe">
         <iframe
-          width="560"
-          height="315"
           src="https://www.youtube.com/embed/cuQWw2pVdXI?si=cRkt1-PvXmFRAD2G"
           title="YouTube video player"
           frameborder="0"
